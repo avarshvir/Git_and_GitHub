@@ -1,0 +1,15 @@
+# Gaurdning Command
+
+sha1=$(git hash-object -w four_1.txt)
+$sha1
+
+git update-index --add --cacheinfo 100644 $sha1 four_1.txt
+
+tree=$(git write-tree)
+
+commit=$(echo "Initial commit" | git commit-tree $tree)
+
+git update-ref HEAD $commit
+
+git status
+git log --oneline

@@ -1,0 +1,15 @@
+This is my file 1 in git_1_basic
+changes made in file1.txt:
+ctrl+shift+p for adding command 
+git config --global core.editor "code --wait"
+
+Another Line added to file 1
+Another second Line added to file 1
+
+Another third line added to file 1
+Another fourth line added to file 1
+
+Another fifth line added to file 1
+Another sixth line added to file 1
+
+2025 is coming

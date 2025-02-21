@@ -1,0 +1,19 @@
+This is my file2 in git_1_basic
+git status
+git init
+first method-> git add .  second method-> git add file1.txt file2.txt
+git commit -m "message"  
+
+
+for checking logs:
+git log
+git log --oneline
+
+git show -s --pretty=raw <id>
+
+git ls-tree <tree id>
+
+git stash added
+
+2025 is comming
+

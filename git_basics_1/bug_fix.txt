@@ -1,0 +1,29 @@
+git branch
+git branch <new-branch>
+git switch <new-branch>
+
+git log 
+git log --oneline //recomendded
+
+git switch main
+
+git switch -c dark-mode
+
+git checkout main
+
+git merge bug-fix
+
+n1 detected
+n2 detected
+
+new1 bug fix
+
+n3 detected
+n4 detected
+new2 bug fix
+new3 bug fix
+
+another fix message for pink mode.
+another 2nd fix message for pink mode.
+
+another fix message for purple mode.

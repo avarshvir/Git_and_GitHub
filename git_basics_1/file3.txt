@@ -1,0 +1,65 @@
+---> git status
+---> git init
+---> git add . or git add <file1> <file2>
+---> git commit -m "message"
+---> git status
+
+
+##### Branches
+----> git Branch
+----> git branch <new_branch_name>    for creating new branch
+----> git switch <new_branch_name>    for switching branch
+----> git log   or git log --oneline
+----> git switch -c <again_new_branch>    
+----> git checkout <branch_name>
+
+#### Merge
+----> git merge <branch_name_to_be_merged>
+
+#### Rename
+----> git branch -m <old_branch_name> <new_branch_name>
+
+#### Delete
+----> git branch -d <branch_name>
+
+#### diff 
+----> git diff
+----> git diff <branch_1>..<branch_2>
+git diff <branch-name-one> <branch-name-two>
+git diff <commit-hash-one> <commit-hash-two>
+git diff --staged
+
+#### stash
+git stash
+git stash save "work in progress on X feature"
+git stash list
+git stash apply
+git stash apply stash@{0}
+git stash pop
+git stash drop
+git stash apply stash@{0} <branch-name>
+git stash clear
+
+#### Tag
+git tag <tag-name>
+git tag -a <tag-name> -m "Release 1.0"
+git tag
+git push origin <tag-name>
+git tag -d <tag-name>
+git push origin :<tag-name>
+
+#### Rebase and Reflog
+git checkout feature-branch
+git rebase main
+
+git add <resolved-files>
+git rebase --continue
+
+git reflog
+git reflog <commit-hash>
+
+git reflog <commit-hash>
+git reset --hard <commit-hash>
+
+git reflog <commit-hash>
+git reset --hard HEAD@{1}
